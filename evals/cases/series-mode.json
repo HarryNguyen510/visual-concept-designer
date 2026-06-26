@@ -1,0 +1,42 @@
+[
+  {
+    "name": "per_section_request_triggers_series_mode",
+    "input": "Here is my 5-section blog post. Create an illustration for each section plus a cover.",
+    "expect": "Series mode activates: per-section distillation, image plan, manifest. Not a single merged image."
+  },
+  {
+    "name": "single_image_request_stays_single",
+    "input": "Create one sketchnote summarizing this long article.",
+    "expect": "Series mode does not activate. One image generated from global distillation."
+  },
+  {
+    "name": "one_style_locked_across_body_set",
+    "input": "A 4-section article requesting a series.",
+    "expect": "All body illustrations use one style code. Only the cover may differ (WEC per cover-spec)."
+  },
+  {
+    "name": "palette_and_style_paragraph_identical",
+    "input": "Any series of 3+ images.",
+    "expect": "Every prompt in the set names the same exact hues and repeats the same style paragraph verbatim."
+  },
+  {
+    "name": "plan_shown_before_generation",
+    "input": "A 6-section article requesting a series, without saying 'generate everything now'.",
+    "expect": "The image plan (number, role, section, labels, filename) is presented before generating."
+  },
+  {
+    "name": "set_capped_at_eight_with_merge_note",
+    "input": "A 12-section article requesting one illustration per section.",
+    "expect": "Plan caps at 8 images total, merges weakest sections, and notes the merge."
+  },
+  {
+    "name": "manifest_returned_with_set",
+    "input": "Any completed series.",
+    "expect": "A manifest is returned: series slug, style, cover_style, palette, aspect 16:9, and one entry per image with labels."
+  },
+  {
+    "name": "one_backend_per_series",
+    "input": "A series where the primary backend fails midway.",
+    "expect": "The skill does not silently mix backends: it regenerates the set on the fallback or warns about style drift."
+  }
+]

@@ -1,0 +1,32 @@
+# Machine-readable spec for EIS. Human overview: references/style-library.md
+code: EIS
+name: Educational Infographic Sketchnote
+template: assets/EIS-Educational-Infographic-Sketchnote-template.png
+use_for: [educational explainer, cheat sheet, knowledge poster, technical term guide, framework overview, concept comparison, multi-concept business explainer]
+palette:
+  paper: "#FAF7F0" # warm white paper
+  ink: "#17233F" # navy-black handwritten outlines
+  soft_blue: "#BFDDF2"
+  soft_green: "#CDECCF"
+  soft_yellow: "#F7E58A"
+  soft_orange: "#F7C49D"
+  soft_purple: "#D8CBF2"
+typography:
+  headline: large bold handwritten title at top
+  subtitle: short highlight bar below the title
+  cards: handwritten card titles with short body notes
+composition:
+  aspect_ratio: vertical 2:3 by default for posters and cheat sheets; 16:9 allowed when the user asks for slides or series
+  layout: educational poster with top title, subtitle highlight, optional corner problem box, 6-9 rounded concept cards in a clear grid, and bottom benefit/process/takeaway strip
+  hierarchy: title -> subtitle -> optional key question or pain box -> concept card grid -> bottom summary
+  cards: each card has a number, title, one simple icon, and 1-3 short lines
+  icons: small colorful icons with meaning; friendly doodle character only when useful
+text_density: high_chunked # high text allowed only when split into short readable cards
+line_quality: hand-drawn navy-black ink outlines, slightly imperfect rounded rectangles, clean spacing
+failure_modes:
+  - photorealistic elements or complex perspective
+  - dense tiny text or long paragraphs inside cards
+  - more than 9 concept cards
+  - decorative icons that do not clarify the concept
+  - uncontrolled rainbow palette or saturated colors
+  - card grid with weak reading order

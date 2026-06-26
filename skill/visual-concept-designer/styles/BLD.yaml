@@ -1,0 +1,22 @@
+# Machine-readable spec for BLD. Human overview: references/style-library.md
+code: BLD
+name: Business Line Diagram
+template: assets/BLD-Business-Line-Diagram-Minimal-template.png
+use_for: [framework, system map, architecture, strategy map, decision tree, org chart]
+palette:
+  paper: "#FFFFFF"
+  ink: "#1A1A1A" # black line art, ~95% of marks
+  accent: "#E8762C" # orange, max 5% of marks
+typography:
+  labels: clean hand-drawn capitals or print, 1-4 words per block
+composition:
+  layout: boxes, arrows, connectors with explicit flow direction or hierarchy
+  blocks: 3-7 components
+  icons: one simple meaningful icon per block at most
+text_density: medium # block labels + one takeaway line
+line_quality: minimal black hand-drawn line art, even stroke weight
+failure_modes:
+  - accent color exceeding ~5% of the image
+  - decorative icons without meaning
+  - crossing connectors creating visual spaghetti
+  - gradients, shadows, or photorealism

@@ -1,0 +1,3 @@
+﻿display_name: Sketchnote Creator
+short_description: Turn ideas, articles, and frameworks into clear sketchnote visuals.
+default_prompt: Create a sketchnote illustration for the content I provide. Pick the best style, keep text readable, and use the same language as my input.

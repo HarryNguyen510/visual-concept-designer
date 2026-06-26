@@ -1,0 +1,22 @@
+# Machine-readable spec for VTK. Human overview: references/style-library.md
+code: VTK
+name: Visual Thinking Knowledge
+template: assets/VTK-Visual-Thinking-Knowledge-template.jpg
+use_for: [deep analysis, visual essay, knowledge map, complex concept]
+palette:
+  paper: "#FFFFFF"
+  ink: "#222222" # black hand-drawn ink
+  accent: "#E8762C" # single accent for emphasis only
+typography:
+  headline: bold hand lettering at top
+  branches: handwritten labels and short notes
+composition:
+  layout: central insight with 3-7 connected branches
+  hierarchy: headline -> central node -> branches -> leaf notes
+text_density: high # 50-70% text allowed for detailed maps
+line_quality: hand-drawn black ink, varied weight for hierarchy
+failure_modes:
+  - branches without visual connection to the central insight
+  - text walls with no icons or structure breaking them up
+  - more than one accent color
+  - branch count beyond 7 making the map unreadable

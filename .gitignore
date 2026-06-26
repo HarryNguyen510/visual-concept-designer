@@ -1,0 +1,14 @@
+﻿.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.env
+.env.*
+node_modules/
+__pycache__/
+.pytest_cache/
+dist/
+build/
+.generated/
+plans/
+evals/results/grading-packet.md

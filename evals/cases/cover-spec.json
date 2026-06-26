@@ -1,0 +1,37 @@
+[
+  {
+    "name": "cover_text_budget_respected",
+    "input": "Create a cover for an article titled 'Stop Buying AI Tools Before Fixing Your Workflow' with subtitle 'A practical guide for business owners'.",
+    "expect": "Prompt contains title (<= 8 words allowed; longer given titles are tightened or kept verbatim per user wording), subtitle <= 12 words, optional meta line, signature. No other text."
+  },
+  {
+    "name": "cover_uses_abstract_motifs_only",
+    "input": "Create a cover for a post about team burnout.",
+    "expect": "Motifs are abstract (washes, botanicals, ink, soft geometry). No people, no literal burnout scene, no mascots."
+  },
+  {
+    "name": "cover_motif_families_limited",
+    "input": "Any cover request.",
+    "expect": "At most 2 motif families are used in the prompt."
+  },
+  {
+    "name": "vietnamese_title_spelled_verbatim",
+    "input": "Tạo cover: '7 điểm chính từ buổi Cafe Talk Online', phụ đề 'Ngày 28/05/2026'.",
+    "expect": "Prompt spells the full Vietnamese title and subtitle verbatim with exact accents, and instructs exact reproduction."
+  },
+  {
+    "name": "signature_present_and_subtle",
+    "input": "Any cover request with signature '#mybrand'.",
+    "expect": "Prompt places the requested signature '#mybrand' at a bottom corner, small and low-contrast, never competing with the title."
+  },
+  {
+    "name": "signature_omitted_on_request",
+    "input": "Create a cover, no watermark or signature please.",
+    "expect": "Prompt contains no signature hashtag."
+  },
+  {
+    "name": "negative_list_included",
+    "input": "Any cover request.",
+    "expect": "Prompt includes the cover negative list: no extra text, no people, no busy scene, no heavy gradients, no tiny text, no clutter near the text zone."
+  }
+]

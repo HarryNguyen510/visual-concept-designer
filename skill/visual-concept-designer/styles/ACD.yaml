@@ -1,0 +1,22 @@
+# Machine-readable spec for ACD. Human overview: references/style-library.md
+code: ACD
+name: AI Contrast Drama
+template: assets/ACD-AI-Contrast-Drama-template.jpg
+use_for: [hook, cover, thumbnail, before/after, manual vs AI]
+palette:
+  left_side: "#D97B29" # warm orange - manual, chaotic
+  right_side: "#2D9CDB" # blue-cyan - AI, systematic
+  accents: ["#16C5D8", "#7A4A1F"]
+typography:
+  headline: one short bold line, high contrast against background
+composition:
+  layout: cinematic split-screen, hard vertical divide
+  left: manual/chaotic/pain state
+  right: AI/system/outcome state
+text_density: low # one headline, optional 2 side labels
+line_quality: photorealistic, dramatic cinematic lighting
+failure_modes:
+  - more than one headline competing for attention
+  - both sides looking equally good (contrast lost)
+  - exaggerated promises in the outcome side
+  - sketchnote or watercolor elements mixed into the photorealism

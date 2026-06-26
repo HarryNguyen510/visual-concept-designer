@@ -1,0 +1,32 @@
+[
+  {
+    "name": "long_article_distills_within_style_budget",
+    "input": "An 800-word article about why small businesses fail at AI adoption, containing 10+ separate observations across 4 sections.",
+    "expect": "Distills to one core message and 3-6 ranked keypoints (SB budget). Labels are 2-5 words each. No keypoint exceeds the selected style budget."
+  },
+  {
+    "name": "labels_trace_to_source",
+    "input": "A product update post listing three shipped features with exact feature names.",
+    "expect": "Every in-image label uses the exact feature names from the source. No invented features, numbers, or claims."
+  },
+  {
+    "name": "numbers_copied_exactly",
+    "input": "An event recap mentioning the date 28/05/2026 and the number 7 key takeaways.",
+    "expect": "Date and count appear in labels exactly as written in the source: 28/05/2026 and 7."
+  },
+  {
+    "name": "cover_request_keeps_only_title_subtitle",
+    "input": "A 1200-word essay with a request to create a cover image for it.",
+    "expect": "Distillation produces title and subtitle only for the image. Keypoints are not placed on the cover."
+  },
+  {
+    "name": "short_input_skips_distillation",
+    "input": "Create a sketchnote: 'Tools amplify the workflow you already have.'",
+    "expect": "No distillation step needed. The sentence is used directly as the single insight (SBS)."
+  },
+  {
+    "name": "keypoints_printed_with_result",
+    "input": "Any long article generating an image.",
+    "expect": "The response lists the keypoints/labels used so the user can verify accuracy."
+  }
+]

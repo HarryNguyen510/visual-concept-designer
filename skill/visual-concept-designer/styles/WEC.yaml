@@ -1,0 +1,24 @@
+# Machine-readable spec for WEC. Human overview: references/style-library.md
+# Full cover rules: references/cover-spec.md
+code: WEC
+name: Watercolor Editorial Cover
+template: assets/WEC-Watercolor-Editorial-Cover-template.png
+use_for: [article cover, event recap, playbook cover, premium banner]
+palette:
+  paper: "#FAF7F0" # warm white
+  primary_ink: "#1E3A5F" # navy headline
+  accents: ["#A9C6DE", "#E8DCC8", "#9AA5B1"] # soft blue, cream, gray washes
+typography:
+  headline: large hand-lettered or elegant serif, navy ink, 1-2 lines
+  subtitle: smaller lighter ink, single line
+  meta: smallest, faint gray
+composition:
+  text_zone: center band, ~60% width, vertically centered
+  motifs: corners and edges only, fading toward center, max 2 motif families
+text_density: low # title + subtitle + optional meta only
+line_quality: soft watercolor washes, organic edges, no hard outlines
+failure_modes:
+  - keypoints or body text placed on the cover
+  - motifs behind the text zone
+  - literal scenes, people, or mascots instead of abstract motifs
+  - saturated or heavy colors breaking the calm editorial mood

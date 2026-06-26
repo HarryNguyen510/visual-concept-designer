@@ -1,0 +1,23 @@
+# Machine-readable spec for SB. Human overview: references/style-library.md
+code: SB
+name: Sketchnote Charcoal & Gold
+template: assets/SB-Sketchnote-Blue-template.jpg
+use_for: [multiple lessons, bullet recap, idea list]
+palette:
+  paper: "#1A1A1A" # Deep Charcoal
+  ink: "#F8F9FA" # Pearl White
+  accents: ["#FFD700"] # Aura Gold
+typography:
+  title: handwritten, top of page
+  bullets: handwritten labels, 2-5 words each
+composition:
+  layout: notebook page; title top, 3-6 bullets below, one metaphor icon per bullet
+  hierarchy: title -> bullets in reading order
+text_density: medium # 3-6 bullets max
+line_quality: white ink line drawing on dark charcoal paper, with premium gold highlights and accents
+failure_modes:
+  - more than 6 bullets or long sentences per bullet
+  - icons that decorate without meaning
+  - dense layout with no breathing room
+  - mixed ink colors or non-brand colors
+

@@ -1,0 +1,8 @@
+# DALL-E 3 Adapter Specifications
+model_name: dalle3
+suffix: "rendered with high text fidelity, clear typographic layout, single master vector image"
+aspect_ratio_param: "aspect ratio"
+default_aspect: "16:9"
+negative_prompt_param: "avoid"
+default_negative: "spelling mistakes, typos, overlapping text, messy letters, blurred background"
+instructions: "Integrate instructions naturally into DALL-E 3 descriptive prompt sentences."

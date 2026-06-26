@@ -1,0 +1,21 @@
+# Machine-readable spec for BGL. Human overview: references/style-library.md
+code: BGL
+name: Bento Grid Layout
+template: assets/BGL-Bento-Grid-Layout-template.png
+use_for: [bento grid layout, SaaS features, modular grid, dashboard layout]
+palette:
+  paper: "#1A1A1A" # Deep Charcoal
+  ink: "#F8F9FA" # Pearl White text and borders
+  accents: ["#FFD700"] # Aura Gold highlights
+typography:
+  title: bold sans-serif, top center
+  labels: clean sans-serif, bold headers inside grid cards
+composition:
+  layout: 4-6 rectangular bento boxes in a multi-column modular grid
+  hierarchy: main title -> bento grid cards -> individual card headers and metrics
+text_density: high # multi-box grid text
+line_quality: sharp clean lines, rounded rectangles (rx=12), glowing neon borders, modern SaaS aesthetic
+failure_modes:
+  - messy or overlapping grid cards
+  - printed-looking body paragraphs (keep descriptions to short bullet lists)
+  - lack of gold highlight accents inside cards

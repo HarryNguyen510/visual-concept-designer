@@ -1,0 +1,22 @@
+# Machine-readable spec for FBW. Human overview: references/style-library.md
+code: FBW
+name: FlowBot Watercolor
+template: assets/FBW-FlowBot-Watercolor-template.jpg
+use_for: [workflow, SOP, step-by-step process, automation flow, tutorial]
+palette:
+  paper: "#FAF6EE" # cream
+  primary: "#4A90C4" # soft watercolor blue
+  accents: ["#F2A33C", "#F7C948"] # orange, yellow highlights
+typography:
+  step_labels: friendly rounded handwriting, 2-5 words per step
+composition:
+  layout: horizontal left-to-right flow, 3-6 steps connected by arrows
+  recurring_element: friendly robot guide appearing along the flow
+  ending: output artifact or checkpoint at the end of the flow
+text_density: medium # 3-6 step labels + short title
+line_quality: soft watercolor with light ink outlines, warm and educational
+failure_modes:
+  - steps out of reading order or arrows pointing backward without reason
+  - more than 6 steps crammed into one row
+  - robot mascot drawn differently across a series
+  - cold corporate look replacing the friendly tone

@@ -1,0 +1,6 @@
+[
+  {
+    "name": "prompt_must_include_required_fields",
+    "required_fields": ["style", "core_message", "metaphor", "layout", "exact_text", "color_rules", "avoid"]
+  }
+]

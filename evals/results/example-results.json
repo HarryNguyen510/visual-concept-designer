@@ -1,0 +1,10 @@
+{
+  "version": "0.4.0",
+  "graded_by": "owner",
+  "date": "2026-06-13",
+  "notes": "Template file. Copy to v{version}-results.json, grade each case from the grading packet, then run: node scripts/run-evals.mjs score evals/results/v{version}-results.json",
+  "results": [
+    { "case": "workflow_sop_should_use_fbw", "pass": true },
+    { "case": "long_article_distills_to_budget", "pass": false, "note": "labels exceeded 5 words in 2 images" }
+  ]
+}

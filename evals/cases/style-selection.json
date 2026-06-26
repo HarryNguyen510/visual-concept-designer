@@ -1,0 +1,29 @@
+[
+  {
+    "name": "workflow_sop_should_use_fbw",
+    "input": "Create a visual SOP with six steps and arrows.",
+    "expected_style": "FBW"
+  },
+  {
+    "name": "business_framework_should_use_bld",
+    "input": "Create a system map for a 5-part operating framework.",
+    "expected_style": "BLD"
+  },
+  {
+    "name": "before_after_should_use_acd",
+    "input": "Show before and after AI automation for a manual workflow.",
+    "expected_style": "ACD"
+  },
+  {
+    "name": "educational_cheat_sheet_should_use_eis",
+    "input": "Create a Vietnamese cheat sheet explaining 9 Domain-Driven Design concepts as concept cards.",
+    "expected_style": "EIS"
+  },
+  {
+    "name": "bento_grid_layout_should_use_bgl",
+    "input": "Create a bento grid layout displaying our key SaaS features.",
+    "expected_style": "BGL"
+  }
+]
+
+

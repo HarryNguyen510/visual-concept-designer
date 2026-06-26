@@ -1,0 +1,23 @@
+# Machine-readable spec for SBS. Human overview: references/style-library.md
+code: SBS
+name: Sketchnote Charcoal & Gold Story
+template: assets/SBS-Sketchnote-Blue-Story-template.jpg
+use_for: [one insight, quote, emotional story, reflective lesson]
+palette:
+  paper: "#1A1A1A" # Deep Charcoal
+  ink: "#F8F9FA" # Pearl White
+  accents: ["#FFD700"] # Aura Gold
+typography:
+  headline: handwritten, natural ballpoint stroke
+  labels: handwritten, 2-5 words
+composition:
+  layout: one central metaphor, generous whitespace
+  hierarchy: headline -> single metaphor illustration -> optional one-line takeaway
+text_density: low # 1 insight only
+line_quality: white ink line drawing on dark charcoal paper, with premium gold highlights and accents
+failure_modes:
+  - multiple metaphors or ideas crowding the page
+  - whitespace filled with decorative noise
+  - printed-looking fonts replacing handwriting
+  - colors other than brand palette (charcoal, pearl white, aura gold)
+

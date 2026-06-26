@@ -1,0 +1,8 @@
+# Midjourney v6 Adapter Specifications
+model_name: midjourney
+suffix: "--style raw --v 6.0"
+aspect_ratio_param: "--ar"
+default_aspect: "16:9"
+negative_prompt_param: "--no"
+default_negative: "cluttered background, photo, low quality, cartoon, blurry, deformed"
+instructions: "Append suffix to the end of the prompt. Use double hyphens for parameters."

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "short_vietnamese_labels",
+    "input": "Tạo ảnh cho hành trình cộng đồng CxO AI Automation.",
+    "checks": ["correct_accents", "short_labels", "no_long_paragraphs"]
+  }
+]
