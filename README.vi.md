@@ -1,5 +1,15 @@
 # Visual Concept Designer (Trình thiết kế Khái niệm Trực quan)
 
+<p align="left">
+  <a href="README.md">English</a> •
+  <b>Tiếng Việt</b> •
+  <a href="README.es.md">Español</a> •
+  <a href="README.ja.md">日本語</a> •
+  <a href="README.zh.md">简体中文</a>
+</p>
+
+---
+
 Visual Concept Designer là một **Agent Skill** giúp chuyển đổi các ghi chú, bài viết, khung tư duy, quy trình (SOP) và ý tưởng kinh doanh thành các hình ảnh minh họa dạng sketchnote sinh động, lưới Bento hiện đại, hoặc ảnh bìa bài viết tối giản — dưới dạng ảnh được tạo tự động, mã vẽ Vector SVG, hoặc các câu lệnh (prompts) tối ưu sẵn.
 
 Dự án này được thiết kế dành cho:

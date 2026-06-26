@@ -1,5 +1,15 @@
 # Visual Concept Designer
 
+<p align="left">
+  <b>English</b> •
+  <a href="README.vi.md">Tiếng Việt</a> •
+  <a href="README.es.md">Español</a> •
+  <a href="README.ja.md">日本語</a> •
+  <a href="README.zh.md">简体中文</a>
+</p>
+
+---
+
 Visual Concept Designer is an agent skill that turns notes, articles, frameworks, workflows, and business ideas into clear sketchnote-style illustrations, Bento grids, and minimal article covers — as generated images, SVGs, or copy-ready prompts.
 
 It is designed for:

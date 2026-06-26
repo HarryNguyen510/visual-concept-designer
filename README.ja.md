@@ -1,5 +1,15 @@
 # Visual Concept Designer
 
+<p align="left">
+  <a href="README.md">English</a> •
+  <a href="README.vi.md">Tiếng Việt</a> •
+  <a href="README.es.md">Español</a> •
+  <b>日本語</b> •
+  <a href="README.zh.md">简体中文</a>
+</p>
+
+---
+
 Visual Concept Designerは、メモ、記事、フレームワーク、ワークフロー、およびビジネスアイデアを、明確なスケッチノート風イラスト、Bentoグリッド（弁当グリッド）、およびミニマルな記事カバー（生成された画像、SVG、またはコピーしてそのまま使用できるプロンプト）に変換するエージェントスキルです。
 
 主な用途：

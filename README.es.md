@@ -1,5 +1,15 @@
 # Visual Concept Designer
 
+<p align="left">
+  <a href="README.md">English</a> •
+  <a href="README.vi.md">Tiếng Việt</a> •
+  <b>Español</b> •
+  <a href="README.ja.md">日本語</a> •
+  <a href="README.zh.md">简体中文</a>
+</p>
+
+---
+
 Visual Concept Designer es una habilidad para agentes de IA (Agent Skill) que convierte notas, artículos, marcos de trabajo, flujos de trabajo e ideas de negocio en ilustraciones claras estilo sketchnote, cuadrículas Bento (Bento grids) y portadas minimalistas de artículos, ya sea como imágenes generadas, vectores SVG o prompts listos para copiar.
 
 Está diseñado para:

@@ -1,5 +1,15 @@
 # Visual Concept Designer (视觉概念设计师)
 
+<p align="left">
+  <a href="README.md">English</a> •
+  <a href="README.vi.md">Tiếng Việt</a> •
+  <a href="README.es.md">Español</a> •
+  <a href="README.ja.md">日本語</a> •
+  <b>简体中文</b>
+</p>
+
+---
+
 Visual Concept Designer 是一个智能体技能 (Agent Skill)，可将笔记、文章、框架、工作流和业务想法转化为清晰的手绘风格插图 (Sketchnote)、Bento 网格布局和极简文章封面 —— 支持生成图像、SVG 矢量图或复制即用的提示词。
 
 它适用于：
