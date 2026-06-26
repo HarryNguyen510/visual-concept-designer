@@ -107,8 +107,14 @@ Use visual-concept-designer to create a cover plus one illustration per section 
 
 その他のパターン：`docs/usage.md`。サンプル入力：`examples/input/`。サンプルプロンプト：`examples/prompts/`。
 
-## サポート
+## サポート & 寄付
 
+このプロジェクトが役に立った場合は、活動を支援するか、コーヒーを一杯おごっていただけると幸いです：
+
+- **Ko-fi**: [Ko-fiで支援する](https://ko-fi.com/harry_ai)
+- **PayPal**: [PayPalで寄付する](https://paypal.me/nganhtuan)
+
+サポートと開発への貢献：
 - 表示の不具合（ベトナム語のアクセント、レイアウト、スタイル） → `docs/troubleshooting.md`
 - 質問またはバグ → GitHubのIssueを作成してください
 - スタイルを追加したい場合 → `docs/authoring-new-styles.md` および `CONTRIBUTING.md`

@@ -107,8 +107,14 @@ Use visual-concept-designer to create a cover plus one illustration per section 
 
 更多模式请参考 `docs/usage.md`。示例输入：`examples/input/`。示例提示词：`examples/prompts/`。
 
-## 支持与反馈
+## 支持与赞助
 
+如果您觉得这个项目对您有所帮助，欢迎支持我的工作或请我喝杯咖啡：
+
+- **Ko-fi**: [通过 Ko-fi 支持](https://ko-fi.com/harry_ai)
+- **PayPal**: [通过 PayPal 赞助](https://paypal.me/nganhtuan)
+
+支持与反馈：
 - 渲染异常（越南语声调错误、布局偏差、风格不符）？ → 参阅 `docs/troubleshooting.md`
 - 问题与建议 → 提交 GitHub Issue
 - 想要添加新风格？ → 参阅 `docs/authoring-new-styles.md` 和 `CONTRIBUTING.md`

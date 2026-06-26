@@ -107,8 +107,14 @@ Use visual-concept-designer to create a cover plus one illustration per section 
 
 Más patrones: `docs/usage.md`. Entradas de ejemplo: `examples/input/`. Prompts de ejemplo: `examples/prompts/`.
 
-## Soporte
+## Soporte y Donación
 
+Si encuentras útil este proyecto, puedes apoyar mi trabajo o invitarme a un café:
+
+- **Ko-fi**: [Apoyar a través de Ko-fi](https://ko-fi.com/harry_ai)
+- **PayPal**: [Donar a través de PayPal](https://paypal.me/nganhtuan)
+
+Para soporte y contribuciones:
 - ¿Algo se ve mal (acentos vietnamitas, diseño, estilo)? → `docs/troubleshooting.md`
 - Preguntas o errores → abre un issue en GitHub
 - ¿Quieres añadir un estilo? → `docs/authoring-new-styles.md` y `CONTRIBUTING.md`

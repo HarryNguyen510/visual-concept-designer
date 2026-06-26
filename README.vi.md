@@ -103,6 +103,13 @@ node scripts/compile-prompt.mjs --style BGL --title "Tên Dự Án" --labels "Nh
 node scripts/compile-prompt.mjs --style SBS --title "Ý tưởng chính" --labels "Nội dung 1, Nội dung 2" --model dalle3
 ```
 
+## Hỗ trợ & Ủng hộ (Support & Donate)
+
+Nếu bạn thấy dự án này hữu ích, bạn có thể ủng hộ tôi tách cafe qua:
+
+- **Ko-fi**: [Nhận ủng hộ qua Ko-fi](https://ko-fi.com/harry_ai)
+- **PayPal**: [Liên kết PayPal.me](https://paypal.me/nganhtuan)
+
 ---
 
 ## Giấy phép (License)
