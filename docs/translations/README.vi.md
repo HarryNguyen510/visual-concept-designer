@@ -61,7 +61,7 @@ Khi bạn cung cấp nội dung và yêu cầu, Skill sẽ thực hiện:
 
 ## Hướng dẫn Cài đặt
 
-Skill này được đóng gói trong thư mục `skills/visual-concept-designer` và tuân theo định dạng chuẩn của Agent Skill (`SKILL.md` kèm YAML frontmatter), tương thích với mọi môi trường chạy Agent hỗ trợ định dạng này.
+Skill này nằm trực tiếp tại thư mục gốc của repository (`SKILL.md` kèm YAML frontmatter), tương thích với mọi môi trường chạy Agent hỗ trợ định dạng chuẩn.
 
 ### Cách 1: Cài đặt tự động 1 chạm (Khuyên dùng)
 
@@ -76,29 +76,31 @@ Chạy bộ cài đặt đi kèm để tự động phát hiện Agent trên má
   chmod +x install.sh && ./install.sh
   ```
 
-### Cách 2: Cài đặt thủ công
+### Cách 2: Clone trực tiếp qua Git
 
-### Môi trường Codex (Windows PowerShell):
-```powershell
-Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
-```
+Clone trực tiếp repo này vào thư mục skills của Agent:
 
-macOS / Linux:
-```bash
-cp -R skills/visual-concept-designer ~/.agents/skills/visual-concept-designer
-```
+- **Codex / OpenCode:**
+  ```bash
+  git clone https://github.com/HarryNguyen510/visual-concept-designer.git ~/.agents/skills/visual-concept-designer
+  ```
+- **Claude Code:**
+  ```bash
+  git clone https://github.com/HarryNguyen510/visual-concept-designer.git ~/.claude/skills/visual-concept-designer
+  ```
 
-### Môi trường Claude Code:
-```powershell
-Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
-```
+### Cách 3: Cài đặt thủ công (từ thư mục mã nguồn đã tải về)
 
-macOS / Linux:
-```bash
-cp -R skills/visual-concept-designer ~/.claude/skills/visual-concept-designer
-```
+- **Môi trường Codex (Windows PowerShell):**
+  ```powershell
+  Copy-Item -Recurse . $HOME\.agents\skills\visual-concept-designer
+  ```
+- **Môi trường Claude Code (Windows PowerShell):**
+  ```powershell
+  Copy-Item -Recurse . $HOME\.claude\skills\visual-concept-designer
+  ```
 
-Sau khi copy xong, hãy **khởi động lại Agent** để kích hoạt. Để kiểm tra xem skill hoạt động chưa, hãy gõ lệnh:
+Sau khi cài đặt xong, hãy **khởi động lại Agent** để kích hoạt. Để kiểm tra xem skill hoạt động chưa, hãy gõ lệnh:
 > *Use visual-concept-designer to create a sketchnote for: "Tools amplify the workflow you already have."*
 
 ---

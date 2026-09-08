@@ -57,7 +57,7 @@ You don't have to choose — the skill picks the best fit automatically.
 
 ## Install
 
-The installable skill lives in `skills/visual-concept-designer` and follows the standard agent-skill format (`SKILL.md` with YAML frontmatter), so it works on any runtime that supports that format.
+The installable skill lives directly at the root of this repository (`SKILL.md` with YAML frontmatter). It can be installed automatically or cloned directly into your agent's skills directory.
 
 ### Quick 1-Click Install (Recommended)
 
@@ -72,31 +72,31 @@ Run the included installer to auto-detect your agents and install automatically:
   chmod +x install.sh && ./install.sh
   ```
 
-### Manual Install
+### Direct Git Clone
 
-**Codex** (Windows PowerShell — `$HOME` expands to `C:\Users\<you>`):
+Clone this repository directly into your agent's skills directory:
 
-```powershell
-Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
-```
+- **Codex / OpenCode:**
+  ```bash
+  git clone https://github.com/HarryNguyen510/visual-concept-designer.git ~/.agents/skills/visual-concept-designer
+  ```
+- **Claude Code:**
+  ```bash
+  git clone https://github.com/HarryNguyen510/visual-concept-designer.git ~/.claude/skills/visual-concept-designer
+  ```
 
-macOS / Linux:
-```bash
-cp -R skills/visual-concept-designer ~/.agents/skills/visual-concept-designer
-```
+### Manual Install (from downloaded folder)
 
-**Claude Code:**
+- **Codex (Windows PowerShell):**
+  ```powershell
+  Copy-Item -Recurse . $HOME\.agents\skills\visual-concept-designer
+  ```
+- **Claude Code (Windows PowerShell):**
+  ```powershell
+  Copy-Item -Recurse . $HOME\.claude\skills\visual-concept-designer
+  ```
 
-```powershell
-Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
-```
-
-macOS / Linux:
-```bash
-cp -R skills/visual-concept-designer ~/.claude/skills/visual-concept-designer
-```
-
-**Other agents (Gemini CLI, etc.):** copy `skills/visual-concept-designer` into your runtime's skills directory.
+**Other agents (Gemini CLI, etc.):** clone or copy this repository into your runtime's skills directory.
 
 Restart your agent after installing. To verify, ask it: `Use visual-concept-designer to create a sketchnote for: "Tools amplify the workflow you already have."`
 

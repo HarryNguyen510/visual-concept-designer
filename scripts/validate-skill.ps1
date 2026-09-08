@@ -1,5 +1,5 @@
 $ErrorActionPreference = "Stop"
-$skillPath = Join-Path $PSScriptRoot "..\skills\visual-concept-designer"
+$skillPath = Resolve-Path (Join-Path $PSScriptRoot "..")
 $skillFile = Join-Path $skillPath "SKILL.md"
 if (!(Test-Path $skillFile)) { throw "Missing SKILL.md" }
 $content = Get-Content $skillFile -Raw

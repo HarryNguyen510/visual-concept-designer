@@ -7,10 +7,9 @@
 #>
 $ErrorActionPreference = "Stop"
 $root = $PSScriptRoot
-$sourceSkill = Join-Path $root "skills\visual-concept-designer"
 
-if (!(Test-Path (Join-Path $sourceSkill "SKILL.md"))) {
-    Write-Error "Error: Cannot find skills/visual-concept-designer/SKILL.md at $sourceSkill"
+if (!(Test-Path (Join-Path $root "SKILL.md"))) {
+    Write-Error "Error: Cannot find SKILL.md at $root"
     exit 1
 }
 
@@ -47,11 +46,16 @@ if ($destinations.Count -eq 0) {
 
 $installedCount = 0
 foreach ($dest in $destinations) {
-    $parent = Split-Path $dest.Path -Parent
-    if (!(Test-Path $parent)) {
-        New-Item -ItemType Directory -Path $parent -Force | Out-Null
+    if (Test-Path $dest.Path) { Remove-Item -Recurse -Force $dest.Path }
+    New-Item -ItemType Directory -Path $dest.Path -Force | Out-Null
+    Copy-Item (Join-Path $root "SKILL.md") -Destination $dest.Path -Force
+    $subfolders = @("agents", "assets", "references", "styles")
+    foreach ($folder in $subfolders) {
+        $src = Join-Path $root $folder
+        if (Test-Path $src) {
+            Copy-Item -Path $src -Destination $dest.Path -Recurse -Force
+        }
     }
-    Copy-Item -Path $sourceSkill -Destination $dest.Path -Recurse -Force
     Write-Host "[OK] Installed to $($dest.Name): $($dest.Path)" -ForegroundColor Green
     $installedCount++
 }

@@ -2,10 +2,9 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SOURCE="$ROOT/skills/visual-concept-designer"
 
-if [ ! -f "$SOURCE/SKILL.md" ]; then
-    echo "Error: Cannot find skills/visual-concept-designer/SKILL.md at $SOURCE" >&2
+if [ ! -f "$ROOT/SKILL.md" ]; then
+    echo "Error: Cannot find SKILL.md at $ROOT" >&2
     exit 1
 fi
 
@@ -20,9 +19,15 @@ installed=0
 install_to() {
     local name="$1"
     local target="$2"
-    mkdir -p "$(dirname "$target")"
+    mkdir -p "$target"
     rm -rf "$target"
-    cp -R "$SOURCE" "$target"
+    mkdir -p "$target"
+    cp "$ROOT/SKILL.md" "$target/"
+    for dir in agents assets references styles; do
+        if [ -d "$ROOT/$dir" ]; then
+            cp -R "$ROOT/$dir" "$target/"
+        fi
+    done
     echo "[OK] Installed to $name: $target"
     installed=$((installed + 1))
 }

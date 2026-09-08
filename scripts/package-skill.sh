@@ -2,10 +2,18 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DIST="$ROOT/dist"
+STAGE="$DIST/staging/visual-concept-designer"
 ZIP="$DIST/visual-concept-designer-skill.zip"
 
-rm -f "$ZIP"
-mkdir -p "$DIST"
+rm -rf "$DIST/staging" "$ZIP"
+mkdir -p "$STAGE"
 
-(cd "$ROOT/skills" && zip -r "$ZIP" visual-concept-designer)
+cp "$ROOT/SKILL.md" "$STAGE/"
+cp -R "$ROOT/agents" "$STAGE/"
+cp -R "$ROOT/assets" "$STAGE/"
+cp -R "$ROOT/references" "$STAGE/"
+cp -R "$ROOT/styles" "$STAGE/"
+
+(cd "$DIST/staging" && zip -r "$ZIP" visual-concept-designer)
+rm -rf "$DIST/staging"
 echo "Created $ZIP"

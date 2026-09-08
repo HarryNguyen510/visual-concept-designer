@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-SKILL="$ROOT/skills/visual-concept-designer"
+SKILL="$ROOT"
 test -f "$SKILL/SKILL.md"
 grep -q "^name: visual-concept-designer" "$SKILL/SKILL.md"
 grep -q "description:" "$SKILL/SKILL.md"

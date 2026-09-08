@@ -10,7 +10,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const skillDir = path.join(root, "skills", "visual-concept-designer");
+const skillDir = root;
 const casesDir = path.join(root, "evals", "cases");
 const resultsDir = path.join(root, "evals", "results");
 

@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
-const skillDir = path.join(root, "skills", "visual-concept-designer");
+const skillDir = root;
 
 // Simple CLI arguments parser
 const args = {};

@@ -1,6 +1,6 @@
 # Installation
 
-The installable skill is the folder `skills/visual-concept-designer`. It follows the standard agent-skill format — `SKILL.md` with YAML frontmatter — so any runtime supporting that format can load it.
+The installable skill lives directly at the root of this repository. It follows the standard agent-skill format — `SKILL.md` with YAML frontmatter — so any runtime supporting that format can load it.
 
 ## Method 1: Automatic 1-Click Install (Recommended)
 
@@ -15,35 +15,44 @@ Run the included installer to automatically detect your agent runtimes (Codex, C
   chmod +x install.sh && ./install.sh
   ```
 
-## Method 2: Manual Installation
+## Method 2: Git Clone Directly
+
+Clone directly into your agent's skills directory:
+
+- **Codex / OpenCode:**
+  ```bash
+  git clone https://github.com/HarryNguyen510/visual-concept-designer.git ~/.agents/skills/visual-concept-designer
+  ```
+- **Claude Code:**
+  ```bash
+  git clone https://github.com/HarryNguyen510/visual-concept-designer.git ~/.claude/skills/visual-concept-designer
+  ```
+
+## Method 3: Manual Copy (From Downloaded Folder)
 
 ### Codex
-
-Windows PowerShell (`$HOME` expands to `C:\Users\<you>`):
-
+Windows PowerShell:
 ```powershell
-Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+Copy-Item -Recurse . $HOME\.agents\skills\visual-concept-designer
 ```
-
 macOS / Linux:
-
 ```bash
-cp -R skills/visual-concept-designer ~/.agents/skills/visual-concept-designer
+cp -R . ~/.agents/skills/visual-concept-designer
 ```
 
-## Claude Code
-
+### Claude Code
+Windows PowerShell:
 ```powershell
-Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
+Copy-Item -Recurse . $HOME\.claude\skills\visual-concept-designer
 ```
-
+macOS / Linux:
 ```bash
-cp -R skills/visual-concept-designer ~/.claude/skills/visual-concept-designer
+cp -R . ~/.claude/skills/visual-concept-designer
 ```
 
 ## Other Agents (Gemini CLI, etc.)
 
-Copy `skills/visual-concept-designer` into the skills directory your runtime documents. Only `SKILL.md` plus its `references/`, `styles/`, and `assets/` folders are required.
+Clone or copy this repository into the skills directory your runtime documents. Only `SKILL.md` plus its `references/`, `styles/`, and `assets/` folders are required.
 
 ## Verify the Install
 
@@ -63,4 +72,4 @@ If the skill loads, it will pick the SBS style and generate (or return a prompt)
 
 ## If a Non-Technical Colleague Asks You
 
-Forward them this: "Copy the `skills/visual-concept-designer` folder from the visual-concept-designer repository into the agent's skills directory (`~/.agents/skills` for Codex, `~/.claude/skills` for Claude Code) and restart the agent."
+Forward them this: "Clone or copy the visual-concept-designer repository into your agent's skills directory (`~/.agents/skills/visual-concept-designer` for Codex, `~/.claude/skills/visual-concept-designer` for Claude Code) and restart the agent."
