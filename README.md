@@ -2,10 +2,10 @@
 
 <p align="left">
   <b>English</b> •
-  <a href="README.vi.md">Tiếng Việt</a> •
-  <a href="README.es.md">Español</a> •
-  <a href="README.ja.md">日本語</a> •
-  <a href="README.zh.md">简体中文</a>
+  <a href="docs/translations/README.vi.md">Tiếng Việt</a> •
+  <a href="docs/translations/README.es.md">Español</a> •
+  <a href="docs/translations/README.ja.md">日本語</a> •
+  <a href="docs/translations/README.zh.md">简体中文</a>
 </p>
 
 ---
@@ -142,7 +142,7 @@ If you find this project useful, you can support my work or buy me a coffee:
 For troubleshooting and contributions:
 - Something looks wrong (Vietnamese accents, layout, style)? → `docs/troubleshooting.md`
 - Questions or bugs → open a GitHub issue
-- Want to add a style? → `docs/authoring-new-styles.md` and `CONTRIBUTING.md`
+- Want to add a style? → `docs/authoring-new-styles.md` and `.github/CONTRIBUTING.md`
 
 ## Repository Status
 
@@ -150,4 +150,4 @@ Active development. Each release is gated by structural checks and an eval rubri
 
 ## License
 
-Code and documentation are MIT licensed. Template assets are AI-generated and covered by `ASSET_LICENSE.md`.
+Code and documentation are MIT licensed. Template assets are AI-generated and covered by [docs/asset-licensing.md](docs/asset-licensing.md).

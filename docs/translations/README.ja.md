@@ -1,7 +1,7 @@
 # Visual Concept Designer
 
 <p align="left">
-  <a href="README.md">English</a> •
+  <a href="../../README.md">English</a> •
   <a href="README.vi.md">Tiếng Việt</a> •
   <a href="README.es.md">Español</a> •
   <b>日本語</b> •
@@ -127,7 +127,7 @@ Use visual-concept-designer to create a cover plus one illustration per section 
 サポートと開発への貢献：
 - 表示の不具合（ベトナム語のアクセント、レイアウト、スタイル） → `docs/troubleshooting.md`
 - 質問またはバグ → GitHubのIssueを作成してください
-- スタイルを追加したい場合 → `docs/authoring-new-styles.md` および `CONTRIBUTING.md`
+- スタイルを追加したい場合 → `docs/authoring-new-styles.md` および `.github/CONTRIBUTING.md`
 
 ## リポジトリのステータス
 
@@ -135,4 +135,4 @@ Use visual-concept-designer to create a cover plus one illustration per section 
 
 ## ライセンス
 
-コードおよびドキュメントはMITライセンスのもとで提供されています。テンプレートアセットはAIによって生成され、`ASSET_LICENSE.md` が適用されます。
+コードおよびドキュメントはMITライセンスのもとで提供されています。テンプレートアセットはAIによって生成され、[docs/asset-licensing.md](../asset-licensing.md) が適用されます。

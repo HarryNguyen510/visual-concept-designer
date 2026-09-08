@@ -1,7 +1,7 @@
 # Visual Concept Designer (Trình thiết kế Khái niệm Trực quan)
 
 <p align="left">
-  <a href="README.md">English</a> •
+  <a href="../../README.md">English</a> •
   <b>Tiếng Việt</b> •
   <a href="README.es.md">Español</a> •
   <a href="README.ja.md">日本語</a> •
@@ -138,5 +138,5 @@ Nếu bạn thấy dự án này hữu ích, bạn có thể ủng hộ tôi tá
 ---
 
 ## Giấy phép (License)
-*   Mã nguồn và tài liệu hướng dẫn được phân phối dưới giấy phép **MIT License** (Xem tệp [LICENSE](LICENSE)).
-*   Các hình ảnh mẫu tham chiếu trong thư mục `assets/` được tạo tự động bởi AI và tuân thủ theo chính sách trong [ASSET_LICENSE.md](ASSET_LICENSE.md).
+*   Mã nguồn và tài liệu hướng dẫn được phân phối dưới giấy phép **MIT License** (Xem tệp [LICENSE](../../LICENSE)).
+*   Các hình ảnh mẫu tham chiếu trong thư mục `assets/` được tạo tự động bởi AI và tuân thủ theo chính sách trong [docs/asset-licensing.md](../asset-licensing.md).

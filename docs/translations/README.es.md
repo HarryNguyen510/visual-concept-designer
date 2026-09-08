@@ -1,7 +1,7 @@
 # Visual Concept Designer
 
 <p align="left">
-  <a href="README.md">English</a> •
+  <a href="../../README.md">English</a> •
   <a href="README.vi.md">Tiếng Việt</a> •
   <b>Español</b> •
   <a href="README.ja.md">日本語</a> •
@@ -127,7 +127,7 @@ Si encuentras útil este proyecto, puedes apoyar mi trabajo o invitarme a un caf
 Para soporte y contribuciones:
 - ¿Algo se ve mal (acentos vietnamitas, diseño, estilo)? → `docs/troubleshooting.md`
 - Preguntas o errores → abre un issue en GitHub
-- ¿Quieres añadir un estilo? → `docs/authoring-new-styles.md` y `CONTRIBUTING.md`
+- ¿Quieres añadir un estilo? → `docs/authoring-new-styles.md` y `.github/CONTRIBUTING.md`
 
 ## Estado del repositorio
 
@@ -135,4 +135,4 @@ Desarrollo activo. Cada lanzamiento está validado por pruebas estructurales y u
 
 ## Licencia
 
-El código y la documentación tienen licencia MIT. Los recursos de plantilla son generados por IA y están cubiertos por `ASSET_LICENSE.md`.
+El código y la documentación tienen licencia MIT. Los recursos de plantilla son generados por IA y están cubiertos por [docs/asset-licensing.md](../asset-licensing.md).

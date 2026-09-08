@@ -1,7 +1,7 @@
 # Visual Concept Designer (视觉概念设计师)
 
 <p align="left">
-  <a href="README.md">English</a> •
+  <a href="../../README.md">English</a> •
   <a href="README.vi.md">Tiếng Việt</a> •
   <a href="README.es.md">Español</a> •
   <a href="README.ja.md">日本語</a> •
@@ -127,7 +127,7 @@ Use visual-concept-designer to create a cover plus one illustration per section 
 支持与反馈：
 - 渲染异常（越南语声调错误、布局偏差、风格不符）？ → 参阅 `docs/troubleshooting.md`
 - 问题与建议 → 提交 GitHub Issue
-- 想要添加新风格？ → 参阅 `docs/authoring-new-styles.md` 和 `CONTRIBUTING.md`
+- 想要添加新风格？ → 参阅 `docs/authoring-new-styles.md` 和 `.github/CONTRIBUTING.md`
 
 ## 仓库状态
 
@@ -135,4 +135,4 @@ Use visual-concept-designer to create a cover plus one illustration per section 
 
 ## 许可证
 
-代码和文档采用 MIT 许可证。模板资产为 AI 生成，并遵循 `ASSET_LICENSE.md` 的规定。
+代码和文档采用 MIT 许可证。模板资产为 AI 生成，并遵循 [docs/asset-licensing.md](../asset-licensing.md) 的规定。
