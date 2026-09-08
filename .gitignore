@@ -1,4 +1,4 @@
-﻿.DS_Store
+.DS_Store
 Thumbs.db
 *.tmp
 *.log
@@ -12,3 +12,5 @@ build/
 .generated/
 plans/
 evals/results/grading-packet.md
+_Delete/
+_Archive/

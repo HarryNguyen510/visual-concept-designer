@@ -61,16 +61,26 @@ Khi bạn cung cấp nội dung và yêu cầu, Skill sẽ thực hiện:
 
 ## Hướng dẫn Cài đặt
 
-Skill này được đóng gói trong thư mục `skill/visual-concept-designer` và tuân theo định dạng chuẩn của Agent Skill (`SKILL.md` kèm YAML frontmatter), tương thích với mọi môi trường chạy Agent hỗ trợ định dạng này.
+Skill này được đóng gói trong thư mục `skills/visual-concept-designer` và tuân theo định dạng chuẩn của Agent Skill (`SKILL.md` kèm YAML frontmatter), tương thích với mọi môi trường chạy Agent hỗ trợ định dạng này.
 
 ### Môi trường Codex (Windows PowerShell):
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer C:\Users\<Tên_User>\.agents\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+```
+
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.agents/skills/visual-concept-designer
 ```
 
 ### Môi trường Claude Code:
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer C:\Users\<Tên_User>\.claude\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
+```
+
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.claude/skills/visual-concept-designer
 ```
 
 Sau khi copy xong, hãy **khởi động lại Agent** để kích hoạt. Để kiểm tra xem skill hoạt động chưa, hãy gõ lệnh:

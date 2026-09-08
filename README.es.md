@@ -57,21 +57,31 @@ No tienes que elegir: la habilidad selecciona la mejor opción automáticamente.
 
 ## Instalación
 
-La habilidad instalable se encuentra en `skill/visual-concept-designer` y sigue el formato estándar de habilidades de agentes (`SKILL.md` con frontmatter YAML), por lo que funciona en cualquier entorno compatible.
+La habilidad instalable se encuentra en `skills/visual-concept-designer` y sigue el formato estándar de habilidades de agentes (`SKILL.md` con frontmatter YAML), por lo que funciona en cualquier entorno compatible.
 
 **Codex** (Windows PowerShell):
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+```
+
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.agents/skills/visual-concept-designer
 ```
 
 **Claude Code:**
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
 ```
 
-**Otros agentes (Gemini CLI, etc.):** copia `skill/visual-concept-designer` en el directorio de habilidades de tu agente.
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.claude/skills/visual-concept-designer
+```
+
+**Otros agentes (Gemini CLI, etc.):** copia `skills/visual-concept-designer` en el directorio de habilidades de tu agente.
 
 Reinicia tu agente después de instalar. Para verificarlo, pregúntale: `Use visual-concept-designer to create a sketchnote for: "Tools amplify the workflow you already have."`
 

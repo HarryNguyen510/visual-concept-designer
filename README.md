@@ -57,21 +57,31 @@ You don't have to choose — the skill picks the best fit automatically.
 
 ## Install
 
-The installable skill lives in `skill/visual-concept-designer` and follows the standard agent-skill format (`SKILL.md` with YAML frontmatter), so it works on any runtime that supports that format.
+The installable skill lives in `skills/visual-concept-designer` and follows the standard agent-skill format (`SKILL.md` with YAML frontmatter), so it works on any runtime that supports that format.
 
 **Codex** (Windows PowerShell — `$HOME` expands to `C:\Users\<you>`):
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+```
+
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.agents/skills/visual-concept-designer
 ```
 
 **Claude Code:**
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
 ```
 
-**Other agents (Gemini CLI, etc.):** copy `skill/visual-concept-designer` into your runtime's skills directory.
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.claude/skills/visual-concept-designer
+```
+
+**Other agents (Gemini CLI, etc.):** copy `skills/visual-concept-designer` into your runtime's skills directory.
 
 Restart your agent after installing. To verify, ask it: `Use visual-concept-designer to create a sketchnote for: "Tools amplify the workflow you already have."`
 

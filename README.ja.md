@@ -57,21 +57,31 @@ Visual Concept Designerは、メモ、記事、フレームワーク、ワーク
 
 ## インストール
 
-インストール可能なスキルファイルは `skill/visual-concept-designer` にあり、標準的なエージェントスキルフォーマット（YAMLフロントマター付きの `SKILL.md`）に従っているため、同フォーマットをサポートするあらゆるランタイムで動作します。
+インストール可能なスキルファイルは `skills/visual-concept-designer` にあり、標準的なエージェントスキルフォーマット（YAMLフロントマター付きの `SKILL.md`）に従っているため、同フォーマットをサポートするあらゆるランタイムで動作します。
 
 **Codex** (Windows PowerShell):
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+```
+
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.agents/skills/visual-concept-designer
 ```
 
 **Claude Code:**
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
 ```
 
-**その他のエージェント (Gemini CLIなど):** `skill/visual-concept-designer` を使用しているエージェントのスキルディレクトリにコピーしてください。
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.claude/skills/visual-concept-designer
+```
+
+**その他のエージェント (Gemini CLIなど):** `skills/visual-concept-designer` を使用しているエージェントのスキルディレクトリにコピーしてください。
 
 インストール後にエージェントを再起動します。検証するには、エージェントに「`Use visual-concept-designer to create a sketchnote for: "Tools amplify the workflow you already have."`」と尋ねてください。
 

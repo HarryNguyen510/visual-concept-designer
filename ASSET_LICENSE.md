@@ -1,6 +1,6 @@
 # Asset License
 
-The files in `skill/visual-concept-designer/assets/` are reference templates used by the skill to guide visual style.
+The files in `skills/visual-concept-designer/assets/` are reference templates used by the skill to guide visual style.
 
 Before publishing this repository publicly, confirm the origin and rights for every asset.
 

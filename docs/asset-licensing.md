@@ -1,6 +1,6 @@
 # Asset Licensing
 
-Before making this repo public, verify every file in `skill/visual-concept-designer/assets`.
+Before making this repo public, verify every file in `skills/visual-concept-designer/assets/`.
 
 For each asset, document:
 

@@ -1,34 +1,34 @@
 # Installation
 
-The installable skill is the folder `skill/visual-concept-designer`. It follows the standard agent-skill format — `SKILL.md` with YAML frontmatter — so any runtime supporting that format can load it. Installation is always the same: copy the folder into your runtime's skills directory and restart the agent.
+The installable skill is the folder `skills/visual-concept-designer`. It follows the standard agent-skill format — `SKILL.md` with YAML frontmatter — so any runtime supporting that format can load it. Installation is always the same: copy the folder into your runtime's skills directory and restart the agent.
 
 ## Codex
 
 Windows PowerShell (`$HOME` expands to `C:\Users\<you>`):
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
 ```
 
 macOS / Linux:
 
 ```bash
-cp -R skill/visual-concept-designer ~/.agents/skills/visual-concept-designer
+cp -R skills/visual-concept-designer ~/.agents/skills/visual-concept-designer
 ```
 
 ## Claude Code
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
 ```
 
 ```bash
-cp -R skill/visual-concept-designer ~/.claude/skills/visual-concept-designer
+cp -R skills/visual-concept-designer ~/.claude/skills/visual-concept-designer
 ```
 
 ## Other Agents (Gemini CLI, etc.)
 
-Copy `skill/visual-concept-designer` into the skills directory your runtime documents. Only `SKILL.md` plus its `references/`, `styles/`, and `assets/` folders are required.
+Copy `skills/visual-concept-designer` into the skills directory your runtime documents. Only `SKILL.md` plus its `references/`, `styles/`, and `assets/` folders are required.
 
 ## Verify the Install
 
@@ -48,4 +48,4 @@ If the skill loads, it will pick the SBS style and generate (or return a prompt)
 
 ## If a Non-Technical Colleague Asks You
 
-Forward them this: "Copy the `skill/visual-concept-designer` folder from the visual-concept-designer repository into the agent's skills directory (`~/.agents/skills` for Codex, `~/.claude/skills` for Claude Code) and restart the agent."
+Forward them this: "Copy the `skills/visual-concept-designer` folder from the visual-concept-designer repository into the agent's skills directory (`~/.agents/skills` for Codex, `~/.claude/skills` for Claude Code) and restart the agent."

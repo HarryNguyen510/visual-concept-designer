@@ -57,21 +57,31 @@ Visual Concept Designer 是一个智能体技能 (Agent Skill)，可将笔记、
 
 ## 安装
 
-可安装的技能文件位于 `skill/visual-concept-designer` 中，并遵循标准的智能体技能格式（带有 YAML 前导板块的 `SKILL.md`），因此适用于任何支持该格式的运行时。
+可安装的技能文件位于 `skills/visual-concept-designer` 中，并遵循标准的智能体技能格式（带有 YAML 前导板块的 `SKILL.md`），因此适用于任何支持该格式的运行时。
 
 **Codex** (Windows PowerShell):
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
+```
+
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.agents/skills/visual-concept-designer
 ```
 
 **Claude Code:**
 
 ```powershell
-Copy-Item -Recurse .\skill\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
+Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.claude\skills\visual-concept-designer
 ```
 
-**其他智能体 (Gemini CLI 等):** 将 `skill/visual-concept-designer` 复制到您的运行时技能目录中。
+macOS / Linux:
+```bash
+cp -R skills/visual-concept-designer ~/.claude/skills/visual-concept-designer
+```
+
+**其他智能体 (Gemini CLI 等):** 将 `skills/visual-concept-designer` 复制到您的运行时技能目录中。
 
 安装后重启您的智能体。要验证是否安装成功，请向其提问：`Use visual-concept-designer to create a sketchnote for: "Tools amplify the workflow you already have."`
 
