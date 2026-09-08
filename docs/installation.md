@@ -1,8 +1,23 @@
 # Installation
 
-The installable skill is the folder `skills/visual-concept-designer`. It follows the standard agent-skill format — `SKILL.md` with YAML frontmatter — so any runtime supporting that format can load it. Installation is always the same: copy the folder into your runtime's skills directory and restart the agent.
+The installable skill is the folder `skills/visual-concept-designer`. It follows the standard agent-skill format — `SKILL.md` with YAML frontmatter — so any runtime supporting that format can load it.
 
-## Codex
+## Method 1: Automatic 1-Click Install (Recommended)
+
+Run the included installer to automatically detect your agent runtimes (Codex, Claude Code, Antigravity) and install:
+
+- **Windows (PowerShell):**
+  ```powershell
+  .\install.ps1
+  ```
+- **macOS / Linux:**
+  ```bash
+  chmod +x install.sh && ./install.sh
+  ```
+
+## Method 2: Manual Installation
+
+### Codex
 
 Windows PowerShell (`$HOME` expands to `C:\Users\<you>`):
 

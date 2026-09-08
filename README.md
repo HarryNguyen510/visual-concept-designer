@@ -59,6 +59,21 @@ You don't have to choose — the skill picks the best fit automatically.
 
 The installable skill lives in `skills/visual-concept-designer` and follows the standard agent-skill format (`SKILL.md` with YAML frontmatter), so it works on any runtime that supports that format.
 
+### Quick 1-Click Install (Recommended)
+
+Run the included installer to auto-detect your agents and install automatically:
+
+- **Windows (PowerShell):**
+  ```powershell
+  .\install.ps1
+  ```
+- **macOS / Linux:**
+  ```bash
+  chmod +x install.sh && ./install.sh
+  ```
+
+### Manual Install
+
 **Codex** (Windows PowerShell — `$HOME` expands to `C:\Users\<you>`):
 
 ```powershell

@@ -63,6 +63,21 @@ Khi bạn cung cấp nội dung và yêu cầu, Skill sẽ thực hiện:
 
 Skill này được đóng gói trong thư mục `skills/visual-concept-designer` và tuân theo định dạng chuẩn của Agent Skill (`SKILL.md` kèm YAML frontmatter), tương thích với mọi môi trường chạy Agent hỗ trợ định dạng này.
 
+### Cách 1: Cài đặt tự động 1 chạm (Khuyên dùng)
+
+Chạy bộ cài đặt đi kèm để tự động phát hiện Agent trên máy và cài đặt tức thì:
+
+- **Windows (PowerShell):**
+  ```powershell
+  .\install.ps1
+  ```
+- **macOS / Linux:**
+  ```bash
+  chmod +x install.sh && ./install.sh
+  ```
+
+### Cách 2: Cài đặt thủ công
+
 ### Môi trường Codex (Windows PowerShell):
 ```powershell
 Copy-Item -Recurse .\skills\visual-concept-designer $HOME\.agents\skills\visual-concept-designer
