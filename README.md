@@ -25,7 +25,7 @@ It is designed for:
 You paste content and ask. The skill then:
 
 1. **Distills** long content into one core message and style-fit exact labels (no invented facts)
-2. **Picks a style** from the 8 styles below (or uses the one you name)
+2. **Picks a style** from the available styles below (or uses the one you name)
 3. **Generates** the image from the style's machine-readable spec (exact palette, layout, negative list)
 4. **Verifies** the rendered text — including Vietnamese accents — and regenerates with corrections if wrong
 
@@ -33,7 +33,7 @@ You can also ask for the prompt only and paste it into any image tool yourself.
 
 ## Which Style Do I Need?
 
-- **Blog/article cover (title + subtitle only)?** → `WEC`
+- **Blog/article cover or watercolor character/naturalist sketch?** → `WEC`
 - **Before/after, manual vs AI hook?** → `ACD`
 - **One quote or single insight?** → `SBS`
 - **List of lessons or tips?** → `SB`
@@ -41,17 +41,21 @@ You can also ask for the prompt only and paste it into any image tool yourself.
 - **Educational cheat sheet / many concept cards?** → `EIS`
 - **Business framework / system map?** → `BLD`
 - **Deep-dive knowledge map?** → `VTK`
+- **Bento grid / SaaS feature showcase?** → `BGL`
+- **Character mascot / editorial pen-and-ink hatching?** → `EIL`
 
 | Code | Style | Best for |
 | --- | --- | --- |
 | ACD | AI Contrast Drama | Hooks, covers, before/after, manual vs AI |
-| WEC | Watercolor Editorial Cover | Calm covers, event recaps, premium banners |
+| WEC | Watercolor Editorial Concept & Cover | Calm covers, event recaps, watercolor characters, naturalist sketches |
 | SBS | Sketchnote Blue Story | One insight, quote, reflective lesson |
 | SB | Sketchnote Blue | Multiple lessons, recap, idea list |
 | FBW | FlowBot Watercolor | Workflows, SOPs, automation flows |
 | EIS | Educational Infographic Sketchnote | Cheat sheets, concept explainers, educational posters |
 | BLD | Business Line Diagram | Frameworks, systems, architecture maps |
 | VTK | Visual Thinking Knowledge | Deep analysis and knowledge maps |
+| BGL | Bento Grid Layout | Bento grids, modular feature lists, dashboards |
+| EIL | Expressive Ink Linework | Character mascots, editorial portraits, pen & ink hatching |
 
 You don't have to choose — the skill picks the best fit automatically.
 

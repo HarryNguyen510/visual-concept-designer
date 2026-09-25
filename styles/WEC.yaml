@@ -1,24 +1,24 @@
 # Machine-readable spec for WEC. Human overview: references/style-library.md
 # Full cover rules: references/cover-spec.md
 code: WEC
-name: Watercolor Editorial Cover
+name: Watercolor Editorial Concept & Cover
 template: assets/WEC-Watercolor-Editorial-Cover-template.png
-use_for: [article cover, event recap, playbook cover, premium banner]
+companion_template: assets/WEC-Watercolor-Character-template.jpg
+use_for: [article cover, event recap, playbook cover, premium banner, watercolor character, watercolor mascot, naturalist illustration, botanical watercolor]
 palette:
-  paper: "#FAF7F0" # warm white
-  primary_ink: "#1E3A5F" # navy headline
+  paper: "#FAF7F0" # warm white cold-pressed watercolor paper
+  primary_ink: "#1E3A5F" # navy headline and deep indigo wash
   accents: ["#A9C6DE", "#E8DCC8", "#9AA5B1"] # soft blue, cream, gray washes
 typography:
   headline: large hand-lettered or elegant serif, navy ink, 1-2 lines
   subtitle: smaller lighter ink, single line
   meta: smallest, faint gray
 composition:
-  text_zone: center band, ~60% width, vertically centered
-  motifs: corners and edges only, fading toward center, max 2 motif families
-text_density: low # title + subtitle + optional meta only
-line_quality: soft watercolor washes, organic edges, no hard outlines
+  layout: "Cover mode: title and subtitle in center band with corner botanical/editorial motifs; Character/Subject mode: central watercolor character, mascot, or naturalist subject with breathing negative space"
+  hierarchy: "headline -> central watercolor subject or text zone -> organic edge washes and subtle splatters"
+text_density: low # title + subtitle or single character/subject focus
+line_quality: soft loose watercolor washes, transparent layered pigment on cold-pressed textured paper, organic bleeding edges, subtle granulation and loose splatters
 failure_modes:
-  - keypoints or body text placed on the cover
-  - motifs behind the text zone
-  - literal scenes, people, or mascots instead of abstract motifs
+  - cover mode: keypoints or body text placed on the cover, or motifs cluttering the text zone
+  - subject mode: solid opaque digital paint, sharp vector fills lacking watercolor wash transparency
   - saturated or heavy colors breaking the calm editorial mood

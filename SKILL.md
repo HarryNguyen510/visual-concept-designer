@@ -55,7 +55,7 @@ If the user explicitly requests a signature, watermark, or brand mark (e.g. "wit
 | Content Type | Style |
 | --- | --- |
 | contrast, hook, before/after, AI vs manual | ACD |
-| elegant cover, minimal text, event recap | WEC |
+| elegant cover, event recap, watercolor character mascot, naturalist illustration | WEC |
 | one insight, quote, emotional story | SBS |
 | multiple lessons, recap, idea list | SB |
 | step-by-step, workflow, SOP, automation flow | FBW |
@@ -63,6 +63,7 @@ If the user explicitly requests a signature, watermark, or brand mark (e.g. "wit
 | framework, system, architecture, strategy map | BLD |
 | deep explanation, visual essay, knowledge map | VTK |
 | bento grid layout, SaaS features, modular grid | BGL |
+| character mascot, editorial portrait, expressive ink sketch, windswept nature metaphor | EIL |
 
 If content fits multiple styles, choose the one that makes the core message easiest to understand in 3 seconds. Prefer EIS over BLD or VTK when the request asks for a poster, cheat sheet, or many short concept cards in a grid.
 

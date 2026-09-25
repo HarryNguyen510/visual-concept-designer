@@ -22,7 +22,7 @@ Produce silently, in this order:
 | Style | Budget |
 | --- | --- |
 | ACD | 1 contrast pair (left vs right) + 1 short headline |
-| WEC (cover) | Title + subtitle only — keypoints never appear on a cover |
+| WEC | Cover: title + subtitle only; Subject: 1 central character/metaphor + 1-2 short labels |
 | SBS | 1 insight only |
 | SB | 3-6 bullets |
 | FBW | 3-6 steps |
@@ -30,6 +30,7 @@ Produce silently, in this order:
 | BLD | 3-7 blocks |
 | VTK | 3-7 branches |
 | BGL | 4-6 cards, each with title + short metric or 1-2 line description |
+| EIL | 1 central character/metaphor + 1 short headline + 1-3 minimal labels |
 
 
 If keypoints exceed the budget: merge related points or drop the weakest. Never shrink text or add density to fit more.

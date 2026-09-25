@@ -23,6 +23,16 @@
     "name": "bento_grid_layout_should_use_bgl",
     "input": "Create a bento grid layout displaying our key SaaS features.",
     "expected_style": "BGL"
+  },
+  {
+    "name": "expressive_ink_character_should_use_eil",
+    "input": "Create an expressive pen-and-ink character illustration with fine-liner hatching on warm ivory paper.",
+    "expected_style": "EIL"
+  },
+  {
+    "name": "watercolor_character_should_use_wec",
+    "input": "Create a loose realistic watercolor character mascot on textured cold-pressed paper with navy washes.",
+    "expected_style": "WEC"
   }
 ]
 

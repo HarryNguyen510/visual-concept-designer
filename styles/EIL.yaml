@@ -1,0 +1,22 @@
+# Machine-readable spec for EIL. Human overview: references/style-library.md
+code: EIL
+name: Expressive Ink Linework
+template: assets/EIL-Expressive-Ink-Linework-template.jpg
+use_for: [expressive ink sketch, pen-and-ink hatching, character mascot, editorial portrait, botanical ink, windswept nature metaphor, fine liner illustration]
+palette:
+  paper: "#F5F2EB" # Warm Ivory / Cream textured paper
+  ink: "#1A1A1A" # Deep Carbon Black
+  accents: [] # Monochrome black and white, zero color, shading via line density only
+typography:
+  title: hand-lettered or clean editorial typography, black ink
+  labels: delicate handwritten fine-liner labels, 2-5 words
+composition:
+  layout: central expressive character, mascot, or dynamic natural metaphor surrounded by generous breathing whitespace
+  hierarchy: main title -> primary hatched ink subject -> subtle directional motion lines -> minimal label
+text_density: low # focused on 1 central character or visual metaphor
+line_quality: fine liner (0.1-0.3mm) pen drawing, dynamic hatching and cross-hatching, energetic gestural contour lines, visible motion strokes, dense line clusters creating depth and shadow without smooth gradient or wash, warm textured paper background
+failure_modes:
+  - digital airbrushed shading, soft blurry gradients, or solid flat fill instead of hatched linework
+  - smooth clean vector outlines lacking hand-drawn scratchy/gestural character
+  - color fills or colored tints (must be monochrome black ink on warm paper)
+  - pencil smudges or watercolor bleed (must be crisp pen ink linework)
